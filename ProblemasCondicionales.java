@@ -67,12 +67,14 @@ public class ProblemasCondicionales {
     
     // Método para el problema 2: Número mayor
     public static int obtenerNumeroMayor(int num1, int num2) {
+        int greaterNumber;
         if (num1 > num2 ){
             return num1;
         }
         else if (num2 > num1){
-            return num2;
+            greaterNumber = num2;
         }
+        return greaternumber;
         
     }
 
@@ -80,6 +82,7 @@ public class ProblemasCondicionales {
     public static char obtenerCalificacionEnLetra(int calificacion) {
         int num = 93
         int multiplier =0
+            
         if ( num =< calificacion< 100){
             multiplier ++;
             return A;
